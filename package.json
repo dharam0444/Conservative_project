@@ -1,0 +1,27 @@
+{
+  "name": "passport-social-auth-master",
+  "version": "1.0.0",
+  "description": "http://mherman.org/blog/2015/09/26/social-authentication-in-node-dot-js-with-passport/",
+  "scripts": {
+    "start": "node ./server/bin/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.3.5",
+    "debug": "^2.6.9",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mongoose": "^4.13.19",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1",
+    "passport": "^0.3.0",
+    "passport-github2": "^0.1.9",
+    "passport-linkedin": "^1.0.0",
+    "passport-twitter": "^1.0.3",
+    "passport-twitter-token": "^1.3.0",
+    "serve-favicon": "^2.5.0",
+    "swig": "^1.4.2"
+  }
+}
